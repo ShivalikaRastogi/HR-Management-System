@@ -51,7 +51,7 @@ class EmployeeTestCase(TestCase):
         self.assertEqual(retrieved_emp.dept_name, 'Java Development')
         self.assertEqual(retrieved_emp.salary, '100000')
         self.assertEqual(retrieved_emp.bonus, '10000')
-        
+        self.assertEqual(retrieved_emp.role, 'Java Developer')
         self.assertEqual(retrieved_emp.phone, '9372849503')
         self.assertEqual(retrieved_emp.user, self.user)
 
